@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+  
+}
+h2{
+ text-align: center;
+color: rgb(231, 164, 47);
+margin-top: 200px;
+margin-bottom: 30px;
+text-shadow:10px 5px 30px rgb(227, 213, 104) ;
+}
+.text{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container
+{
+color: rgb(241, 241, 231);
+   width: 700px;
+   height: 400px;
+   background-image: url("https://fcdn.me/cf0/7e6/merck-light-bulb-02b591514ebdc44e78d7a0f598.jpg");
+   background-size: cover;
+   background-size: 100% 100%;
+    box-shadow: 10px 5px 30px rgb(227, 213, 104);
+}
+#result{
+    width:500px;
+    height: 45px;
+    background-color: rgb(181, 232, 234);
+    margin-left:120px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    top: 20px;
+    font-weight: bold;
+    
+}
+#NumText{
+    width:500px;
+    height: 45px;
+    background-color: rgb(181, 232, 234);
+    margin-left:120px;
+    border-radius: 5px;
+}
+#error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
