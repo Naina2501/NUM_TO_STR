@@ -48,5 +48,5 @@ function NumberClick()
     }
 
     function cancelClick(){
-        alert("You canceled..");
+        alert("You cancelled..");
     }
