@@ -4,10 +4,13 @@ function NumberClick()
     var result=document.getElementById("result");
     var error=document.getElementById("error");
 
+
     if(isNaN(n))
      {
         error.innerHTML=`Please enter Number`;
      }
+
+    
      
     if (n === 0) return 'Zero';
 
@@ -39,6 +42,11 @@ function NumberClick()
             return word;
         }
          translate(n);
+
+         
        
     }
 
+    function cancelClick(){
+        alert("You canceled..");
+    }
